@@ -200,3 +200,21 @@ GFPGAN is released under Apache License Version 2.0.
 ## :e-mail: Contact
 
 If you have any question, please email `xintao.wang@outlook.com` or `xintaowang@tencent.com`.
+
+
+# Simple instruction for setting this up on AWS
+
+1. Get a machine with Nvidia GPU, for example P3 series (P3.2XLarge)
+2. Set NVidia prime 
+  2.1. `apt-get install nvidia-prime`
+  2.2. `nvidia-settings -q all`
+  2.3. `nvidia-smi`
+3. Create a Conda environment
+  3.1. `conda init`
+  3.2. `conda create -n face python=3.8`
+  3.3. `conda activate face`
+4. Sync the repo 
+5. Run the inference as stated above
+  
+ 
+
