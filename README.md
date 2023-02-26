@@ -205,7 +205,7 @@ If you have any question, please email `xintao.wang@outlook.com` or `xintaowang@
 # Simple instruction for setting this up on AWS
 
 1. Get a machine with Nvidia GPU, for example P3 series (P3.2XLarge)
-2. Set NVidia prime 
+2. Set NVidia prime (all instrutions should be elevated, ie, `sudo -i`)
   2.1. `apt-get install nvidia-prime`
   2.2. `nvidia-settings -q all`
   2.3. `nvidia-smi`
